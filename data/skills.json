@@ -1,0 +1,277 @@
+{
+  "heading": "Skills & Technologies",
+  "categories": [
+    {
+      "name": "Languages",
+      "color": "#60a5fa",
+      "icon": "code",
+      "skills": [
+        {
+          "name": "Python",
+          "level": 81
+        },
+        {
+          "name": "PowerShell Scripting",
+          "level": 83
+        },
+        {
+          "name": "Bash",
+          "level": 90
+        },
+        {
+          "name": "Java",
+          "level": 94
+        },
+        {
+          "name": "C",
+          "level": 88
+        },
+        {
+          "name": "JavaScript",
+          "level": 85
+        },
+        {
+          "name": "Kotlin",
+          "level": 92
+        },
+        {
+          "name": "Solidity",
+          "level": 87
+        }
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "color": "#34d399",
+      "icon": "server",
+      "skills": [
+        {
+          "name": "MITRE ATT&CK Framework",
+          "level": 77
+        },
+        {
+          "name": "OSINT Framework",
+          "level": 80
+        },
+        {
+          "name": "Node.js",
+          "level": 91
+        },
+        {
+          "name": "Express.js",
+          "level": 89
+        },
+        {
+          "name": "Flask",
+          "level": 90
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "color": "#f97316",
+      "icon": "cloud",
+      "skills": [
+        {
+          "name": "Qualys VMDR",
+          "level": 90
+        },
+        {
+          "name": "Nmap",
+          "level": 77
+        },
+        {
+          "name": "FortiGate",
+          "level": 76
+        },
+        {
+          "name": "Wireshark",
+          "level": 81
+        },
+        {
+          "name": "EDR Platforms",
+          "level": 80
+        },
+        {
+          "name": "Autopsy",
+          "level": 82
+        },
+        {
+          "name": "Volatility 3",
+          "level": 84
+        },
+        {
+          "name": "FTK Imager",
+          "level": 86
+        },
+        {
+          "name": "Microsoft Excel",
+          "level": 93
+        },
+        {
+          "name": "Microsoft 365",
+          "level": 76
+        },
+        {
+          "name": "Teams",
+          "level": 86
+        },
+        {
+          "name": "SharePoint",
+          "level": 75
+        },
+        {
+          "name": "Outlook",
+          "level": 82
+        },
+        {
+          "name": "Git",
+          "level": 90
+        },
+        {
+          "name": "GitHub",
+          "level": 88
+        },
+        {
+          "name": "VS Code",
+          "level": 77
+        },
+        {
+          "name": "IntelliJ",
+          "level": 89
+        },
+        {
+          "name": "Jupyter",
+          "level": 88
+        },
+        {
+          "name": "MATLAB",
+          "level": 86
+        },
+        {
+          "name": "VirtualBox",
+          "level": 80
+        },
+        {
+          "name": "SQLite",
+          "level": 86
+        },
+        {
+          "name": "MySQL",
+          "level": 88
+        }
+      ]
+    },
+    {
+      "name": "Technical",
+      "color": "#a78bfa",
+      "icon": "palette",
+      "skills": [
+        {
+          "name": "Cyber Risk Assessment",
+          "level": 75
+        },
+        {
+          "name": "Analysis & Reporting",
+          "level": 75
+        },
+        {
+          "name": "Risk Management & Governance",
+          "level": 87
+        },
+        {
+          "name": "Business Resilience & Incident Response",
+          "level": 76
+        },
+        {
+          "name": "Vulnerability Assessment & Scanning",
+          "level": 90
+        },
+        {
+          "name": "Security Audits",
+          "level": 91
+        },
+        {
+          "name": "Security Documentation & Policies",
+          "level": 75
+        },
+        {
+          "name": "Digital Forensics",
+          "level": 87
+        },
+        {
+          "name": "Chain-of-Custody & Evidence Hashing",
+          "level": 81
+        },
+        {
+          "name": "Windows Registry Analysis",
+          "level": 86
+        },
+        {
+          "name": "Penetration Testing",
+          "level": 87
+        },
+        {
+          "name": "Phishing Awareness",
+          "level": 93
+        },
+        {
+          "name": "Azure/AWS Fundamentals",
+          "level": 79
+        },
+        {
+          "name": "IAM",
+          "level": 83
+        },
+        {
+          "name": "Zero Trust Basics",
+          "level": 89
+        },
+        {
+          "name": "Neural Networks (CNN)",
+          "level": 75
+        },
+        {
+          "name": "Deep Learning",
+          "level": 86
+        },
+        {
+          "name": "Data Analysis",
+          "level": 88
+        },
+        {
+          "name": "Multi-Task & Project Coordination",
+          "level": 93
+        },
+        {
+          "name": "Excel-Based Reporting & Tracking",
+          "level": 90
+        },
+        {
+          "name": "Organizational Skills",
+          "level": 80
+        },
+        {
+          "name": "Verbal & Written Communication",
+          "level": 91
+        },
+        {
+          "name": "Client & Stakeholder Relationship Building",
+          "level": 81
+        },
+        {
+          "name": "Team Coordination",
+          "level": 79
+        },
+        {
+          "name": "Problem Solving",
+          "level": 82
+        },
+        {
+          "name": "Conflict Resolution",
+          "level": 81
+        }
+      ]
+    }
+  ]
+}

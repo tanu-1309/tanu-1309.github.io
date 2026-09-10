@@ -1,0 +1,23 @@
+{
+  "heading": "About Me",
+  "roles": "Cyber Security Professional, Cyber Security Intern, Virtual Intern",
+  "bio": [
+    "Cyber security professional pursuing a Master of Applied Computing co-op with a Bachelor's degree in Cyber Security and hands-on experience across vulnerability assessment, security documentation, and cyber risk reporting within cross-functional, consulting-style environments. Skilled at coordinating multiple concurrent tasks and projects, with strong verbal and written communication and organizational skills applied to security assessments, technical documentation, and stakeholder-ready reporting that support risk assessment, remediation tracking, and compliance with organizational standards."
+  ],
+  "quote": "I'm a lifelong learner and innovator, driven by a desire to contribute with new ideas and tools that deliver real value.",
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "2+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "4+"
+    },
+    {
+      "label": "Technologies",
+      "value": "61+"
+    }
+  ],
+  "avatarUrl": ""
+}

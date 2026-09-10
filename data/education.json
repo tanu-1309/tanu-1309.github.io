@@ -1,0 +1,29 @@
+{
+  "heading": "Educational Journey",
+  "subtitle": "Discover how academic excellence shapes innovative thinking and professional growth.",
+  "entries": [
+    {
+      "degree": "Master of Applied Computing (Co-op)",
+      "institution": "University of Windsor",
+      "field": "Applied Computing",
+      "startDate": "2026",
+      "endDate": "Present",
+      "gpa": "",
+      "description": "",
+      "achievements": [],
+      "skills": []
+    },
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "CVR College of Engineering",
+      "field": "Computer Science & Engineering (Cyber Security)",
+      "startDate": "2021",
+      "endDate": "2025",
+      "gpa": "9.17 / 10",
+      "description": "GPA: 9.17 / 10",
+      "achievements": [],
+      "skills": []
+    }
+  ],
+  "certifications": []
+}

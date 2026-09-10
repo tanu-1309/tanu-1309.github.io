@@ -1,0 +1,40 @@
+{
+  "logo": "TS",
+  "items": [
+    {
+      "label": "Home",
+      "href": "#hero",
+      "icon": "home"
+    },
+    {
+      "label": "About",
+      "href": "#about",
+      "icon": "user"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills",
+      "icon": "code"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience",
+      "icon": "briefcase"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects",
+      "icon": "laptop"
+    },
+    {
+      "label": "Education",
+      "href": "#education",
+      "icon": "graduation"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "icon": "mail"
+    }
+  ]
+}

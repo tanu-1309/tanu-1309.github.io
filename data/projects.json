@@ -1,0 +1,232 @@
+{
+  "heading": "Featured Projects",
+  "projects": [
+    {
+      "name": "Digital Forensics Investigation Lab",
+      "description": "Designed and staged a simulated security breach within an isolated virtual-machine lab environment, generating realistic forensic artifacts including dropped and deleted files, manipulated timestamps, persistence mechanisms, and network exfiltration traffic. Conducted end-to-end digital forensic analysis using Autopsy and Volatility, recovering deleted artifacts, reconstructing file-system timelines, and identifying memory-resident indicators of compromise and suspicious process activity. Performed network forensics with Wireshark to trace and reconstruct exfiltrated data, correlating disk, memory, and network evidence into a single verified incident timeline. Documented findings in a formal incident reconstruction report with chain-of-custody records and SHA-256 evidence hashing, supporting evidentiary integrity and reporting practices consistent with incident response standards.",
+      "technologies": [
+        "Autopsy",
+        "Volatility 3",
+        "Wireshark",
+        "VirtualBox",
+        "FTK Imager",
+        "Python",
+        "Windows Registry Analysis",
+        "SHA-256 Hashing"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#5196fd"
+    },
+    {
+      "name": "Cryptographic Key Management System (CKMS)",
+      "description": "Engineered a secure web-based key management system using Python, Flask, SQLite, and cryptographic libraries, applying AES-GCM, RSA-OAEP, and PBKDF2-HMAC-SHA256 for encrypted key storage and protection. Documented key lifecycle management processes — including generation, rotation, revocation, and audit logging — with role-based access control and an interactive reporting dashboard.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Cryptographic Libraries",
+        "AES-GCM",
+        "RSA-OAEP",
+        "PBKDF2-HMAC-SHA256"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "Integrated Architecture for Security in Cloud Computing Based on Blockchain",
+      "description": "Designed a secure cloud storage architecture combining Elliptic Curve Integrated Encryption with Ethereum blockchain for data confidentiality and integrity via encryption and decentralized hash verification. Built and documented smart contracts for hash management and integrity checks, lowering false verification errors by 18% and raising data integrity accuracy to 94%.",
+      "technologies": [
+        "Solidity",
+        "Ethereum",
+        "Elliptic Curve Encryption",
+        "Smart Contracts"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#34d399"
+    },
+    {
+      "name": "IoT Botnet Detection using Deep Learning and Machine Learning Techniques for Network Traffic Analysis (Publication)",
+      "description": "Co-authored research applying Decision Tree, Random Forest, and 1D-CNN deep learning models to the Bot-IoT dataset to classify network traffic and detect botnet-driven DDoS, DoS, data theft, and reconnaissance attacks with over 99% accuracy. Published in International Journal of Research Publication and Reviews (IJRPR).",
+      "technologies": [
+        "Decision Tree",
+        "Random Forest",
+        "1D-CNN",
+        "Deep Learning",
+        "Machine Learning"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#ed649e"
+    },
+    {
+      "name": "iocextract",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/iocextract",
+      "githubUrl": "https://github.com/tanu-1309/iocextract",
+      "color": "#f97316"
+    },
+    {
+      "name": "network-intrusion-detection-using-machine-learning",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/network-intrusion-detection-using-machine-learning",
+      "githubUrl": "https://github.com/tanu-1309/network-intrusion-detection-using-machine-learning",
+      "color": "#facc15"
+    },
+    {
+      "name": "elk-siem-dashboard",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Shell"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/elk-siem-dashboard",
+      "githubUrl": "https://github.com/tanu-1309/elk-siem-dashboard",
+      "color": "#5196fd"
+    },
+    {
+      "name": "ai_soc",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Shell",
+        "PowerShell",
+        "Dockerfile",
+        "Zeek",
+        "Batchfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/ai_soc",
+      "githubUrl": "https://github.com/tanu-1309/ai_soc",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "email-phishing-detection",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/email-phishing-detection",
+      "githubUrl": "https://github.com/tanu-1309/email-phishing-detection",
+      "color": "#34d399"
+    },
+    {
+      "name": "pipeline-guard",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "HCL",
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/pipeline-guard",
+      "githubUrl": "https://github.com/tanu-1309/pipeline-guard",
+      "color": "#ed649e"
+    },
+    {
+      "name": "threathound",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/threathound",
+      "githubUrl": "https://github.com/tanu-1309/threathound",
+      "color": "#f97316"
+    },
+    {
+      "name": "sentinel-triage",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/sentinel-triage",
+      "githubUrl": "https://github.com/tanu-1309/sentinel-triage",
+      "color": "#facc15"
+    },
+    {
+      "name": "vuln-priority-engine",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/vuln-priority-engine",
+      "githubUrl": "https://github.com/tanu-1309/vuln-priority-engine",
+      "color": "#5196fd"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/contribution-history",
+      "githubUrl": "https://github.com/tanu-1309/contribution-history",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "soc-automation-lab",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/soc-automation-lab",
+      "githubUrl": "https://github.com/tanu-1309/soc-automation-lab",
+      "color": "#34d399"
+    },
+    {
+      "name": "llm-query-optimizer",
+      "description": "GitHub repository: llm-query-optimizer",
+      "technologies": [
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/llm-query-optimizer",
+      "githubUrl": "https://github.com/tanu-1309/llm-query-optimizer",
+      "color": "#ed649e"
+    },
+    {
+      "name": "Deepfake-recognition",
+      "description": "GitHub repository: Deepfake-recognition",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "CSS",
+        "Makefile",
+        "Dockerfile",
+        "JavaScript",
+        "HTML"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/Deepfake-recognition",
+      "githubUrl": "https://github.com/tanu-1309/Deepfake-recognition",
+      "color": "#f97316"
+    },
+    {
+      "name": "LLM-QUERYOPTIMIZER",
+      "description": "GitHub repository: LLM-QUERYOPTIMIZER",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/tanu-1309/LLM-QUERYOPTIMIZER",
+      "githubUrl": "https://github.com/tanu-1309/LLM-QUERYOPTIMIZER",
+      "color": "#facc15"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "copyright": "Tanu Sree Reddy Gavinnolla",
+  "year": "2026",
+  "tagline": "Crafting digital experiences with passion and precision.",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "linkedin.com/in/TanusreeReddy",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:gavinno@uwindsor.ca",
+      "icon": "email"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "greeting": "Hello, I'm",
+  "name": "Tanu Sree Reddy Gavinnolla",
+  "roles": [
+    "Cyber Security Professional",
+    "Cyber Security Intern",
+    "Virtual Intern"
+  ],
+  "tagline": "Cyber security professional pursuing a Master of Applied Computing co-op with a Bachelor's degree in Cyber Security and hands-on experience across vulnerability assessment, security documentation, and cyber risk reporting within cross-functional, consulting-style environments. Skilled at coordinating multiple concurrent tasks and projects, with strong verbal and written communication and organizational skills applied to security assessments, technical documentation, and stakeholder-ready reporting that support risk assessment, remediation tracking, and compliance with organizational standards.",
+  "ctaPrimary": {
+    "text": "View Projects",
+    "href": "#projects"
+  },
+  "ctaSecondary": {
+    "text": "Get Resume",
+    "href": "#contact"
+  },
+  "codeSnippet": {
+    "filename": "developer.js",
+    "code": "const profile = {\n    name: 'Tanu Sree Reddy Gavinnolla',\n    title: 'Cyber Security Professional',\n    skills: [\n        'Python', 'PowerShell Scripting', 'Bash', 'Java', 'C', 'JavaScript', 'Kotlin', 'Solidity', 'MITRE ATT&CK Framework'\n    ],\n    hardWorker: true,\n    quickLearner: true,\n    problemSolver: true,\n    yearsOfExperience: 2,\n    hireable: function() {\n        return (\n            this.hardWorker &&\n            this.problemSolver &&\n            this.skills.length >= 5\n        );\n    }\n};"
+  },
+  "floatingBadges": [
+    {
+      "text": "UI Magic",
+      "color": "purple"
+    },
+    {
+      "text": "Clean Code",
+      "color": "blue"
+    },
+    {
+      "text": "Innovation",
+      "color": "amber"
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/tanu-1309",
+    "linkedin": "linkedin.com/in/TanusreeReddy",
+    "email": "gavinno@uwindsor.ca"
+  }
+}
