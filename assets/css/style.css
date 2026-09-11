@@ -2319,3 +2319,67 @@ input, textarea {
     padding: 2rem 0;
   }
 }
+
+/* ==========================================================================
+   Brand lockups (company / institution logos) + project cover images
+   Logos are official reverse (light-ink, transparent) lockups, so they sit
+   directly on the dark card. A dark-ink logo needs `logoNeedsChip: true`
+   in its JSON entry, which adds .brand-lockup--chip (light plate behind it).
+   ========================================================================== */
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.brand-lockup img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45));
+}
+
+.brand-lockup--exp img {
+  max-height: 44px;
+  max-width: 100%;
+}
+
+.brand-lockup--edu {
+  margin-bottom: 1rem;
+}
+
+.brand-lockup--edu img {
+  max-height: 34px;
+  max-width: 180px;
+}
+
+.brand-lockup--chip {
+  background: #ffffff;
+  border-radius: var(--radius-lg, 0.75rem);
+  padding: 0.5rem 0.7rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.brand-lockup--chip img {
+  filter: none;
+}
+
+.project-card-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transition-slow, 0.5s ease);
+}
+
+.project-card:hover .project-card-cover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+  .brand-lockup--exp img { max-height: 34px; }
+  .brand-lockup--edu img { max-height: 28px; max-width: 150px; }
+}

@@ -14,7 +14,7 @@
         "Windows Registry Analysis",
         "SHA-256 Hashing"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/digital-forensics-lab.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#5196fd"
@@ -31,7 +31,7 @@
         "RSA-OAEP",
         "PBKDF2-HMAC-SHA256"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/ckms.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#8f89ff"
@@ -45,7 +45,7 @@
         "Elliptic Curve Encryption",
         "Smart Contracts"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/blockchain-cloud-security.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#34d399"
@@ -60,7 +60,7 @@
         "Deep Learning",
         "Machine Learning"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/iot-botnet-detection.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#ed649e"
@@ -71,7 +71,7 @@
       "technologies": [
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/iocextract.webp",
       "liveUrl": "https://github.com/tanu-1309/iocextract",
       "githubUrl": "https://github.com/tanu-1309/iocextract",
       "color": "#f97316"
@@ -82,7 +82,7 @@
       "technologies": [
         "Jupyter Notebook"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/network-intrusion-detection.webp",
       "liveUrl": "https://github.com/tanu-1309/network-intrusion-detection-using-machine-learning",
       "githubUrl": "https://github.com/tanu-1309/network-intrusion-detection-using-machine-learning",
       "color": "#facc15"
@@ -93,7 +93,7 @@
       "technologies": [
         "Shell"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/elk-siem-dashboard.webp",
       "liveUrl": "https://github.com/tanu-1309/elk-siem-dashboard",
       "githubUrl": "https://github.com/tanu-1309/elk-siem-dashboard",
       "color": "#5196fd"
@@ -110,7 +110,7 @@
         "Zeek",
         "Batchfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/ai-soc.webp",
       "liveUrl": "https://github.com/tanu-1309/ai_soc",
       "githubUrl": "https://github.com/tanu-1309/ai_soc",
       "color": "#8f89ff"
@@ -121,7 +121,7 @@
       "technologies": [
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/email-phishing-detection.webp",
       "liveUrl": "https://github.com/tanu-1309/email-phishing-detection",
       "githubUrl": "https://github.com/tanu-1309/email-phishing-detection",
       "color": "#34d399"
@@ -133,7 +133,7 @@
         "HCL",
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/pipeline-guard.webp",
       "liveUrl": "https://github.com/tanu-1309/pipeline-guard",
       "githubUrl": "https://github.com/tanu-1309/pipeline-guard",
       "color": "#ed649e"
@@ -144,7 +144,7 @@
       "technologies": [
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/threathound.webp",
       "liveUrl": "https://github.com/tanu-1309/threathound",
       "githubUrl": "https://github.com/tanu-1309/threathound",
       "color": "#f97316"
@@ -156,7 +156,7 @@
         "Python",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/sentinel-triage.webp",
       "liveUrl": "https://github.com/tanu-1309/sentinel-triage",
       "githubUrl": "https://github.com/tanu-1309/sentinel-triage",
       "color": "#facc15"
@@ -168,7 +168,7 @@
         "Python",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/vuln-priority-engine.webp",
       "liveUrl": "https://github.com/tanu-1309/vuln-priority-engine",
       "githubUrl": "https://github.com/tanu-1309/vuln-priority-engine",
       "color": "#5196fd"
@@ -186,7 +186,7 @@
       "name": "soc-automation-lab",
       "description": "Personal project for exploring modern development practices",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/soc-automation-lab.webp",
       "liveUrl": "https://github.com/tanu-1309/soc-automation-lab",
       "githubUrl": "https://github.com/tanu-1309/soc-automation-lab",
       "color": "#34d399"
@@ -197,7 +197,7 @@
       "technologies": [
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/llm-query-optimizer.webp",
       "liveUrl": "https://github.com/tanu-1309/llm-query-optimizer",
       "githubUrl": "https://github.com/tanu-1309/llm-query-optimizer",
       "color": "#ed649e"
@@ -214,7 +214,7 @@
         "JavaScript",
         "HTML"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/deepfake-recognition.webp",
       "liveUrl": "https://github.com/tanu-1309/Deepfake-recognition",
       "githubUrl": "https://github.com/tanu-1309/Deepfake-recognition",
       "color": "#f97316"
@@ -223,7 +223,7 @@
       "name": "LLM-QUERYOPTIMIZER",
       "description": "GitHub repository: LLM-QUERYOPTIMIZER",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/covers/llm-query-optimizer.webp",
       "liveUrl": "https://github.com/tanu-1309/LLM-QUERYOPTIMIZER",
       "githubUrl": "https://github.com/tanu-1309/LLM-QUERYOPTIMIZER",
       "color": "#facc15"

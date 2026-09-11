@@ -470,7 +470,9 @@
         <div class="exp-card-inner">
           <div class="exp-card-icon">
             <div class="exp-card-icon-glow"></div>
-            ${icon(expIcons[idx % expIcons.length])}
+            ${pos.logo
+              ? `<div class="brand-lockup brand-lockup--exp${pos.logoNeedsChip ? ' brand-lockup--chip' : ''}"><img src="${pos.logo}" alt="${pos.company} logo" loading="lazy"></div>`
+              : icon(expIcons[idx % expIcons.length])}
           </div>
           <div class="exp-card-title">${pos.title}</div>
           <div class="exp-card-meta">
@@ -512,7 +514,7 @@
 
       let imgContent = '';
       if (proj.imageUrl) {
-        imgContent = `<img src="${proj.imageUrl}" alt="${proj.name}">`;
+        imgContent = `<img class="project-card-cover" src="${proj.imageUrl}" alt="${proj.name} cover" loading="lazy">`;
       } else {
         imgContent = `<div class="project-card-image-placeholder">${icon('laptop')}</div>`;
       }
@@ -584,8 +586,9 @@
       const dateStr = [edu.startDate, edu.endDate].filter(Boolean).join(' - ');
 
       card.innerHTML = `
+        ${edu.logo ? `<div class="brand-lockup brand-lockup--edu${edu.logoNeedsChip ? ' brand-lockup--chip' : ''}"><img src="${edu.logo}" alt="${edu.institution} logo" loading="lazy"></div>` : ''}
         <div class="edu-card-header">
-          <span class="edu-card-emoji">${mascots[idx % mascots.length]}</span>
+          ${edu.logo ? '' : `<span class="edu-card-emoji">${mascots[idx % mascots.length]}</span>`}
           <h3 class="edu-card-degree">${edu.degree}</h3>
         </div>
         <div class="edu-card-institution">${icon('bookOpen', 'edu-card-institution-icon')} ${edu.institution}</div>

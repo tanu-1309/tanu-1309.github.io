@@ -38,7 +38,8 @@
         "FortiMail",
         "AWS EC2",
         "Active Directory"
-      ]
+      ],
+      "logo": "assets/img/logos/bluecloud.png"
     },
     {
       "title": "Virtual Intern",
@@ -57,7 +58,8 @@
         "IDS",
         "Firewalls",
         "APIs"
-      ]
+      ],
+      "logo": "assets/img/logos/palo-alto-networks.png"
     }
   ]
 }

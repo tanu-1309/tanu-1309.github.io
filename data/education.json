@@ -11,7 +11,8 @@
       "gpa": "",
       "description": "",
       "achievements": [],
-      "skills": []
+      "skills": [],
+      "logo": "assets/img/logos/university-of-windsor.png"
     },
     {
       "degree": "Bachelor of Technology",
@@ -22,7 +23,8 @@
       "gpa": "9.17 / 10",
       "description": "GPA: 9.17 / 10",
       "achievements": [],
-      "skills": []
+      "skills": [],
+      "logo": "assets/img/logos/cvr-college.png"
     }
   ],
   "certifications": []
