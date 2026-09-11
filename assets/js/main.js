@@ -360,14 +360,20 @@
     if (!data) return;
     const section = document.getElementById('about');
 
-    section.querySelector('.about-roles').textContent = data.roles || 'About Me';
+    const eyebrow = section.querySelector('.about-eyebrow');
+    if (eyebrow) eyebrow.textContent = data.heading || 'About Me';
 
-    // Image or placeholder
-    const imgWrapper = section.querySelector('.about-image-wrapper');
-    if (data.avatarUrl) {
-      imgWrapper.innerHTML = `<img src="${data.avatarUrl}" alt="Profile photo">`;
-    } else {
-      imgWrapper.innerHTML = '<div class="about-image-placeholder">&lt;/&gt;</div>';
+    section.querySelector('.about-roles').textContent =
+      data.headline || data.roles || 'About Me';
+
+    // Focus areas
+    const focusContainer = section.querySelector('.about-focus');
+    if (focusContainer) {
+      const focus = data.focus || [];
+      focusContainer.innerHTML = focus
+        .map(f => `<span class="about-focus-item">${f}</span>`)
+        .join('');
+      focusContainer.hidden = focus.length === 0;
     }
 
     // Bio
@@ -450,40 +456,47 @@
     section.querySelector('.section-title').textContent = data.heading || 'Professional Journey';
     section.querySelector('.section-subtitle').textContent = data.subtitle || '';
 
-    const grid = section.querySelector('.experience-grid');
+    const timeline = section.querySelector('.exp-timeline');
     const expIcons = ['network', 'layers', 'code', 'cpu', 'briefcase', 'server'];
 
     (data.positions || []).forEach((pos, idx) => {
-      const card = document.createElement('div');
-      card.className = 'exp-card';
+      const item = document.createElement('article');
+      item.className = 'exp-item';
 
-      let achieveHtml = '';
-      if (pos.achievements && pos.achievements.length) {
-        achieveHtml = '<div class="exp-card-achievements">' +
-          pos.achievements.map(a => `<span class="exp-card-achievement">${a}</span>`).join('') +
-          '</div>';
-      }
+      const period = [pos.startDate, pos.endDate]
+        .filter(Boolean)
+        .filter((v, i, arr) => arr[0] !== arr[1] || i === 0)
+        .join(' – ');
 
-      card.innerHTML = `
-        <div class="exp-card-glass"></div>
-        <div class="exp-card-gradient-border"></div>
-        <div class="exp-card-inner">
-          <div class="exp-card-icon">
-            <div class="exp-card-icon-glow"></div>
-            ${pos.logo
-              ? `<div class="brand-lockup brand-lockup--exp${pos.logoNeedsChip ? ' brand-lockup--chip' : ''}"><img src="${pos.logo}" alt="${pos.company} logo" loading="lazy"></div>`
-              : icon(expIcons[idx % expIcons.length])}
-          </div>
-          <div class="exp-card-title">${pos.title}</div>
-          <div class="exp-card-meta">
-            <span class="exp-card-company">${pos.company}</span>
-            <span class="exp-card-period">${pos.startDate}${pos.endDate ? ' - ' + pos.endDate : ''}</span>
-          </div>
-          <p class="exp-card-description">${pos.description}</p>
-          ${achieveHtml}
+      const mark = pos.logo
+        ? `<div class="brand-lockup brand-lockup--exp${pos.logoNeedsChip ? ' brand-lockup--chip' : ''}"><img src="${pos.logo}" alt="${pos.company} logo" loading="lazy"></div>`
+        : `<span class="exp-mark-icon">${icon(expIcons[idx % expIcons.length])}</span>`;
+
+      const points = (pos.achievements || [])
+        .map(a => `<li class="exp-point">${a}</li>`)
+        .join('');
+
+      const techs = (pos.technologies || [])
+        .map(t => `<span class="exp-tech">${t}</span>`)
+        .join('');
+
+      item.innerHTML = `
+        <span class="exp-dot" aria-hidden="true"></span>
+        <div class="exp-panel">
+          <header class="exp-head">
+            ${mark}
+            ${period ? `<span class="exp-period">${period}</span>` : ''}
+          </header>
+          <h3 class="exp-role">${pos.title}</h3>
+          <p class="exp-org">
+            ${pos.company}${pos.badge ? `<span class="exp-badge">${pos.badge}</span>` : ''}
+          </p>
+          ${pos.summary ? `<p class="exp-summary">${pos.summary}</p>` : ''}
+          ${points ? `<ul class="exp-points">${points}</ul>` : ''}
+          ${techs ? `<div class="exp-techs">${techs}</div>` : ''}
         </div>`;
 
-      grid.appendChild(card);
+      timeline.appendChild(item);
     });
 
     // Floating particles

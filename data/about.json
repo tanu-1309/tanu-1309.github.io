@@ -1,23 +1,30 @@
 {
   "heading": "About Me",
-  "roles": "Cyber Security Professional, Cyber Security Intern, Virtual Intern",
+  "roles": "Cyber Security Professional",
   "bio": [
-    "Cyber security professional pursuing a Master of Applied Computing co-op with a Bachelor's degree in Cyber Security and hands-on experience across vulnerability assessment, security documentation, and cyber risk reporting within cross-functional, consulting-style environments. Skilled at coordinating multiple concurrent tasks and projects, with strong verbal and written communication and organizational skills applied to security assessments, technical documentation, and stakeholder-ready reporting that support risk assessment, remediation tracking, and compliance with organizational standards."
+    "I'm a cyber-security engineer in the Master of Applied Computing co-op at the University of Windsor, with a Bachelor's in Cyber Security from CVR College. My internship at BlueCloud Softech ran the whole loop rather than one slice of it: scan, triage, write it down, and chase the fix until it closed.",
+    "Most of my work sits where tooling meets process — Qualys and Nmap findings that turn into tracked remediation, MITRE ATT&CK–aligned detection logic, FortiGate and FortiMail hardening, and Python and PowerShell automation that takes hours out of response. I also co-authored published research on deep-learning botnet detection in IoT network traffic."
   ],
   "quote": "I'm a lifelong learner and innovator, driven by a desire to contribute with new ideas and tools that deliver real value.",
   "highlights": [
     {
-      "label": "Years Experience",
-      "value": "2+"
+      "label": "Projects Shipped",
+      "value": "17"
     },
     {
-      "label": "Projects Completed",
-      "value": "4+"
+      "label": "Security Roles",
+      "value": "2"
     },
     {
-      "label": "Technologies",
-      "value": "61+"
+      "label": "Published Paper",
+      "value": "1"
     }
   ],
-  "avatarUrl": ""
+  "headline": "I find the gaps — then make sure they actually get closed.",
+  "focus": [
+    "Vulnerability Assessment",
+    "Detection Engineering",
+    "Incident Response",
+    "Security Documentation"
+  ]
 }

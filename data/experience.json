@@ -1,6 +1,6 @@
 {
   "heading": "Professional Journey",
-  "subtitle": "Transforming ideas into digital reality, one project at a time",
+  "subtitle": "Two security roles — vulnerability management, detection engineering and response automation.",
   "positions": [
     {
       "title": "Cyber Security Intern",
@@ -8,58 +8,50 @@
       "location": "",
       "startDate": "2025",
       "endDate": "2025",
-      "description": "Performed 75–80 vulnerability assessments and security scans using Qualys VMDR and Nmap, coordinating multiple concurrent assessments to support proactive risk identification, remediation tracking, and audit reporting for cross-functional stakeholders. Tracked vulnerability findings, remediation timelines, and audit evidence using Excel-based logs and trackers, supporting structured status reporting and coordinated closure of security findings across multiple concurrent engagements. Authored and maintained security documentation, configurations, and standard operating procedures, improving process transparency, accelerating onboarding, and supporting compliance with organizational cybersecurity standards. Collaborated within a 15-member cybersecurity and cross-functional team to gather technical requirements, coordinate task timelines, and support solution design while upholding compliance with security protocols and documentation standards. Prepared technical documentation supporting pre-sales activities, translating proposed security solutions into clear, business-friendly summaries for stakeholders and prospective clients. Contributed to the deployment and standardization of EDR agent baselines across 500+ endpoints, supporting consistent policy compliance and reducing configuration variance. Assisted in developing detection logic aligned to the MITRE ATT&CK framework, improving fidelity of lateral movement and process anomaly detection by approximately 20%. Supported development of Python and PowerShell automation scripts integrated with firewall APIs and threat intelligence feeds to streamline credential revocation and host isolation workflows, contributing to an estimated 30% reduction in mean time to respond (MTTR). Strengthened infrastructure security by configuring and optimizing FortiGate firewall rules and implementing SPF, DKIM, and DMARC policies on FortiMail to reduce email spoofing risk. Contributed to network configuration and management initiatives, improving system reliability and operational efficiency by up to 70%. Assisted with forensic analysis and containment procedures during a cloud incident response investigation involving a compromised AWS EC2 instance, supporting business resilience and minimizing operational disruption. Conducted infrastructure assessments through log analysis and vulnerability scanning, identifying critical Active Directory and perimeter firewall misconfigurations and supporting cross-functional remediation efforts.",
       "achievements": [
-        "Performed 75–80 vulnerability assessments and security scans using Qualys VMDR and Nmap, coordinating multiple concurrent assessments to support proactive risk identification, remediation tracking, and audit reporting for cross-functional stakeholders.",
-        "Tracked vulnerability findings, remediation timelines, and audit evidence using Excel-based logs and trackers, supporting structured status reporting and coordinated closure of security findings across multiple concurrent engagements.",
-        "Authored and maintained security documentation, configurations, and standard operating procedures, improving process transparency, accelerating onboarding, and supporting compliance with organizational cybersecurity standards.",
-        "Collaborated within a 15-member cybersecurity and cross-functional team to gather technical requirements, coordinate task timelines, and support solution design while upholding compliance with security protocols and documentation standards.",
-        "Prepared technical documentation supporting pre-sales activities, translating proposed security solutions into clear, business-friendly summaries for stakeholders and prospective clients.",
-        "Contributed to the deployment and standardization of EDR agent baselines across 500+ endpoints, supporting consistent policy compliance and reducing configuration variance.",
-        "Assisted in developing detection logic aligned to the MITRE ATT&CK framework, improving fidelity of lateral movement and process anomaly detection by approximately 20%.",
-        "Supported development of Python and PowerShell automation scripts integrated with firewall APIs and threat intelligence feeds to streamline credential revocation and host isolation workflows, contributing to an estimated 30% reduction in mean time to respond (MTTR).",
-        "Strengthened infrastructure security by configuring and optimizing FortiGate firewall rules and implementing SPF, DKIM, and DMARC policies on FortiMail to reduce email spoofing risk.",
-        "Contributed to network configuration and management initiatives, improving system reliability and operational efficiency by up to 70%.",
-        "Assisted with forensic analysis and containment procedures during a cloud incident response investigation involving a compromised AWS EC2 instance, supporting business resilience and minimizing operational disruption.",
-        "Conducted infrastructure assessments through log analysis and vulnerability scanning, identifying critical Active Directory and perimeter firewall misconfigurations and supporting cross-functional remediation efforts."
+        "Ran 75–80 vulnerability assessments with Qualys VMDR and Nmap, tracking findings, remediation timelines and audit evidence through to closure.",
+        "Standardised EDR agent baselines across 500+ endpoints, cutting configuration variance across the estate.",
+        "Built MITRE ATT&CK–aligned detection logic, lifting lateral-movement and process-anomaly detection fidelity by ~20%.",
+        "Automated credential revocation and host isolation in Python and PowerShell against firewall and threat-intel APIs, contributing to ~30% lower MTTR.",
+        "Supported forensic analysis and containment for a compromised AWS EC2 instance, and hardened FortiGate rules plus SPF, DKIM and DMARC on FortiMail."
       ],
       "technologies": [
         "Qualys VMDR",
         "Nmap",
-        "Excel",
-        "EDR",
         "MITRE ATT&CK",
+        "EDR",
+        "FortiGate",
+        "FortiMail",
         "Python",
         "PowerShell",
-        "FortiGate",
-        "SPF",
-        "DKIM",
-        "DMARC",
-        "FortiMail",
         "AWS EC2",
         "Active Directory"
       ],
-      "logo": "assets/img/logos/bluecloud.png"
+      "logo": "assets/img/logos/bluecloud.png",
+      "badge": "",
+      "summary": "Vulnerability management, detection engineering and incident response inside a 15-person security team."
     },
     {
       "title": "Virtual Intern",
-      "company": "Palo Alto Networks (Virtual Job Simulation)",
+      "company": "Palo Alto Networks",
       "location": "",
       "startDate": "2024",
       "endDate": "2024",
-      "description": "Optimized threat detection by configuring and fine-tuning intrusion detection systems (IDS) and firewalls, increasing threat identification accuracy by 35%. Led the integration of threat intelligence platforms, consolidating data from 10 different APIs into a unified interface and cutting analysis time by 50%. Developed automation scripts to analyze security logs and streamline QA tasks, reducing manual review time by approximately 3 hours per task. Facilitated knowledge-transfer and security awareness sessions on threat detection and incident response strategies for peer teams.",
       "achievements": [
-        "Optimized threat detection by configuring and fine-tuning intrusion detection systems (IDS) and firewalls, increasing threat identification accuracy by 35%.",
-        "Led the integration of threat intelligence platforms, consolidating data from 10 different APIs into a unified interface and cutting analysis time by 50%.",
-        "Developed automation scripts to analyze security logs and streamline QA tasks, reducing manual review time by approximately 3 hours per task.",
-        "Facilitated knowledge-transfer and security awareness sessions on threat detection and incident response strategies for peer teams."
+        "Tuned intrusion detection systems and firewall policy, raising threat-identification accuracy by 35%.",
+        "Consolidated 10 threat-intelligence APIs into a single interface, halving analysis time.",
+        "Scripted security-log analysis that removed roughly 3 hours of manual review per task.",
+        "Ran knowledge-transfer sessions on threat detection and incident response for peer teams."
       ],
       "technologies": [
         "IDS",
         "Firewalls",
-        "APIs"
+        "Threat Intel APIs",
+        "Automation"
       ],
-      "logo": "assets/img/logos/palo-alto-networks.png"
+      "logo": "assets/img/logos/palo-alto-networks.png",
+      "badge": "Virtual job simulation",
+      "summary": "Simulation programme covering detection tuning, threat-intel integration and response automation."
     }
   ]
 }
