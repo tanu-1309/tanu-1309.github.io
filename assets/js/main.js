@@ -363,6 +363,24 @@
     const eyebrow = section.querySelector('.about-eyebrow');
     if (eyebrow) eyebrow.textContent = data.heading || 'About Me';
 
+    // Portrait
+    const portrait = section.querySelector('.about-portrait');
+    if (portrait) {
+      if (data.avatarUrl) {
+        const alt = data.avatarAlt || 'Portrait';
+        portrait.innerHTML = data.avatarFallback
+          ? `<picture>
+               <source srcset="${data.avatarUrl}" type="image/webp">
+               <img src="${data.avatarFallback}" alt="${alt}" decoding="async">
+             </picture>`
+          : `<img src="${data.avatarUrl}" alt="${alt}" decoding="async">`;
+        portrait.hidden = false;
+      } else {
+        portrait.innerHTML = '';
+        portrait.hidden = true;
+      }
+    }
+
     section.querySelector('.about-roles').textContent =
       data.headline || data.roles || 'About Me';
 

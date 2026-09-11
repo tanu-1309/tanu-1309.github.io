@@ -923,8 +923,38 @@ input, textarea {
 .about-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0;
-  max-width: 60rem;
+  gap: 2.5rem;
+  max-width: 68rem;
+  align-items: start;
+}
+
+.about-portrait {
+  margin: 0;
+  position: relative;
+  order: -1;
+  width: min(240px, 60%);
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-glass);
+  box-shadow: var(--shadow-card);
+}
+
+.about-portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(96, 165, 250, 0.14), transparent 45%);
+  pointer-events: none;
+}
+
+.about-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  display: block;
 }
 
 .about-focus {
@@ -1014,6 +1044,19 @@ input, textarea {
 @media (min-width: 768px) {
   .about-highlights {
     max-width: 46rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 300px);
+    gap: 4rem;
+  }
+
+  .about-portrait {
+    order: 0;
+    width: 100%;
+    margin-top: 0.35rem;
   }
 }
 

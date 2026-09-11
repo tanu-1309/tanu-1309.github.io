@@ -26,5 +26,8 @@
     "Detection Engineering",
     "Incident Response",
     "Security Documentation"
-  ]
+  ],
+  "avatarUrl": "assets/img/tanu-gavinnolla.webp",
+  "avatarFallback": "assets/img/tanu-gavinnolla.jpg",
+  "avatarAlt": "Tanu Sree Reddy Gavinnolla"
 }
